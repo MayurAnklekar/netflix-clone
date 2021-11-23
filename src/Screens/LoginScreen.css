@@ -1,0 +1,90 @@
+.loginScreen__logo {
+  position: fixed;
+  left: 0px;
+  width: 120px;
+  object-fit: contain;
+  padding-left: 10px;
+}
+
+.loginScreen {
+  height: 100%;
+  position: relative;
+  background: url("https://static0.srcdn.com/wordpress/wp-content/uploads/2021/03/Netflix-content-titles.jpg")
+    center no-repeat;
+  background-size: cover;
+}
+.loginScreeen__button {
+  position: fixed;
+  background-color: #e50914;
+  color: white;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.loginScreen__gradient{
+  width: 100%;
+  z-index: 1;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(
+      to top,
+   rgba(0,0,0,0.8) 0%,
+   rgba(0,0,0,0) 60%,
+   rgba(0,0,0,0.8) 100%
+   
+   );
+}
+
+.loginScreen__body>h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.loginScreen__body>h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.loginScreen__body>h3{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.loginScreen__body{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    
+}
+.loginScreen__input>form>input{
+    outline-width: 0;
+    padding: 10px;
+    width: 30%;
+    height: 32px;
+    border: none;
+    max-width: 600px;
+    align-items: center;
+}
+
+.loginScreen__getStarted{
+    border: none;
+    padding: 17px 20px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+}
